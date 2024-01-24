@@ -1,0 +1,154 @@
+:root {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo {
+    margin-left: 800px;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.all_buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head_btn {
+    width: 150px;
+    height: 45px;
+    background: #0284c7;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.welcome {
+    margin: auto;
+    margin-top: 260px;
+    width: 900px;
+    border-radius: 40px;
+    background-color: transparent;
+    opacity: 1;
+    padding: 15px;
+}
+
+.welcome h1 {
+    font-size: 50px;
+}
+
+.about_page, .menu_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 700px;
+    width: 1200px;
+    border-radius: 40px;
+    background-color: transparent;
+    opacity: 1;
+    padding: 15px;
+}
+
+.about_page img {
+    width: 500px;
+    opacity: 1;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.about_page h5 {
+    font-size: 24px;
+}
+
+.menu_page {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    opacity: 1;
+    background-color: transparent;
+    height: 420px;
+}
+
+.image_container {
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    margin-left: 30px;
+}
+
+.image_container:nth-child(1) {
+    background-image: url(https://estaticos-cdn.prensaiberica.es/clip/4d5e1e3e-1a4c-43b6-8d3c-b0843b8e46a8_alta-libre-aspect-ratio_default_0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_container:nth-child(2) img {
+    width: 400px;
+    height: 400px;
+}
+
+
+.image_container:nth-child(3) {
+    background-image: url(curry.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.image_container:nth-child(4) {
+    background-image: url(https://onepiece-merchandise.com/wp-content/uploads/2023/05/Potato-Pallie-For-Nami-From-Sanji.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.all_titles {
+    display: flex;
+    width: 100%;
+}
+
+.all_titles h1:nth-child(1) {
+    margin-left: 180px;
+}
+
+.all_titles h1:nth-child(2) {
+    margin-left: 70px
+}
+
+.all_titles h1:nth-child(3) {
+    margin-left: 92px
+}
+
+.all_titles h1:nth-child(4) {
+    margin-left: 150px
+}
+
+.create_contact {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    width: 300px;
+}
